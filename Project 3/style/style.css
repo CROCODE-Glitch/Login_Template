@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+
+body{
+	background-image: url(../image/w10.png);
+	-webkit-background-size: cover;
+	background-size:cover; 
+	font-family: Poppins;
+	margin: 0;
+	padding: 0;
+}
+
+.user-img{
+	background:url('../image/ic4.png') no-repeat;
+	width: 130px;
+	height: 130px;
+	background-size: 100%;
+	position: absolute;
+	top: -80px;
+	left: 130px;
+
+
+}
+
+.wrapper{
+	width: 400px;
+	height: 420px;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	padding: 60px 30px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	box-shadow: 8px 8px 50px #000;
+	border-radius: 10px;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 22px;
+	color: #f6648b;
+	text-align: center;
+	margin-bottom: 8%;
+	font-family: 'Lobster', cursive;
+}
+
+.wrapper input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.wrapper input[type=text], .wrapper input[type=password]{
+	border: none;
+	border-bottom:1px solid #ddd ;
+	background: transparent;
+	outline:none;
+	height: 30px;
+	font-size: 16px;
+	opacity: 1;
+	color: orange;
+
+}
+
+.wrapper input[type=submit]{
+	font-family: 'Dancing Script', cursive;
+	border: none;
+	outline: none;
+	height: 40px;
+	background-color:#f6648b;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+
+
+}
+.wrapper input[type=submit]{
+	cursor: pointer;
+}
+
+.wrapper a{
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+}
+
+.wrapper a:hover{
+	color: orange;
+	opacity: 1;
+}
+.bottom-text{
+	font-family: 'Dancing Script', cursive;
+	color: white;
+
+}
+
+.bottom-text input{
+	width: 10%;
+	float: left;
+}
+
+.bottom-text a{
+	float: right;
+}
+
+

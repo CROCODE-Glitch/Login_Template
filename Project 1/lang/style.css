@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Reem+Kufi&display=swap');
+*{margin: 0; padding: 0} 
+body{
+	background-image: url(../image/w22.jpg);
+	-webkit-background-size: cover;
+	background-size:cover; 
+	padding-top: 30vh;
+}
+
+.form-container{
+	width: 250px;
+	height: auto;
+	padding: 40px 30px;
+	background: #060c21;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 #000;
+	align-items:center;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	position: relative;
+	
+}
+.form-container .list:before{
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;	
+	right: 2px;
+	bottom: -2px;
+	background: #fff;
+	z-index: -1;
+	transform: skew(2deg,2deg);
+
+}
+
+.form-container .list:nth-child(2):before{
+	background: linear-gradient(315deg,#89ff00,#00bcd4);
+
+}
+
+.user-img{
+	background:url('../icon/user.png') no-repeat;
+	width: 100px;
+	height: 100px;
+	background-size: 100%;
+	position: absolute;
+	top: -80px;
+	left: 106px;
+
+
+}
+
+ul.list{
+	font-family: 'Amiri', serif;
+	color: #fff;
+	list-style-type: none;
+	text-align: center;
+}
+
+ul.list li{
+
+	width: 250px;
+	margin-bottom: 15px;
+
+}
+
+ul.list li input{
+	font-family: 'Reem Kufi', sans-serif;
+	color: black;
+	text-align: center;
+	width: 250px;
+	padding: 8px  0px;
+	border: none;
+	background-color: white;
+	border-radius: 25px;
+
+}
+
+
+ul.list li input[type="button"]{
+	font-family: 'Reem Kufi', sans-serif;
+	background-color: blue;
+	color: white;
+	border-radius: 5px;
+}
+
+ul.list li input[type="button"]:active{
+	background-color: mediumblue ;
+}
+
+ul.list li a{
+	font-family: 'Amiri', serif;
+	left: 100px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+ul.list li a:active{
+	color: orange;
+}
+
